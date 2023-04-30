@@ -1,6 +1,8 @@
 # Logs
 logs
 *.log
+*undefined*
+*./app/config*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -128,3 +130,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+# Self - ignore
+config/
